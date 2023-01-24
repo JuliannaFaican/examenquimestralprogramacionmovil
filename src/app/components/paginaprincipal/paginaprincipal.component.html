@@ -13,19 +13,19 @@
     <br>
 <p>Ingrese nombre</p>
 
-<input type="text" id="nombre">
+<input [(ngModel)]="nombre">
 <br>
 <p>Ingrese apellido</p>
-<input type="text" id="apellido">
+<input [(ngModel)]="apellido">
 <br>
 <p>Ingrese edad</p>
-<input type="text" id="edad">
+<input [(ngModel)]="edad">
 <br>
 <p>Ingrese direccion</p>
-<input type="text" id="direccion">
+<input [(ngModel)]="direccion">
 <br>
 <p>Ingrese celular</p>
-<input type="text" id="celular">
+<input [(ngModel)]="celular">
 <br>
 <br>
   <button (click)="registro()">Guardar</button>  
