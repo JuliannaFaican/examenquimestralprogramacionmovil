@@ -1,1 +1,32 @@
-<p>ola</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div>
+        <h2>Boleto </h2>
+    </div>
+    <div *ngFor="let nombre of nombres">
+    <p>Nombre Completo</p>
+    <p>{{nombre}}</p>
+    </div>
+    <div *ngFor="let apellido of apellidos">
+        <p>{{apellido}}</p>
+    </div>
+    <br>
+    <p>Edad</p>
+    <div *ngFor="let edad of edads"> 
+        <p>{{edad}}</p>
+    </div>
+    <div *ngFor="let direccion of direccion">
+    <p>Direccion</p>
+    <p>{{direccion}}</p>
+    </div>
+</body>
+</html>
